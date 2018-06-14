@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/nav_layout"
+        layout="@layout/layout_title" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/modify_phone" />
+
+        <EditText
+            android:id="@+id/old_phone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:hint="@string/input_original_phone"
+            android:paddingLeft="21dp"
+            android:textColorHint="@color/ed_text_color"
+            android:textColor="@color/black_text_color"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/modify_login_pw" />
+
+        <EditText
+            android:id="@+id/old_code"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="@string/input_sms_code"
+            android:textColorHint="@color/ed_text_color"
+            android:textColor="@color/black_text_color"
+            android:paddingLeft="21dp"
+            android:textSize="13sp" />
+
+
+        <CheckBox
+            android:id="@+id/get_old_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/prof_left_margin"
+            android:background="@drawable/bind_bt_bg"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="@string/s_get_code"
+            android:textColor="@drawable/bind_bt_textcolor"
+            android:textSize="13sp"
+            app:layout_constraintLeft_toRightOf="@id/et_mobile_code"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/et_mobile_code" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/modify_phone" />
+
+        <EditText
+            android:id="@+id/new_phone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:hint="@string/input_new_phone"
+            android:paddingLeft="21dp"
+            android:textColorHint="@color/ed_text_color"
+            android:textColor="@color/black_text_color"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/modify_login_pw" />
+
+        <EditText
+            android:id="@+id/new_code"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="@string/input_sms_code"
+            android:paddingLeft="21dp"
+            android:textColorHint="@color/ed_text_color"
+            android:textColor="@color/black_text_color"
+            android:textSize="13sp" />
+
+        <CheckBox
+            android:id="@+id/get_new_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/prof_left_margin"
+            android:background="@drawable/bind_bt_bg"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="@string/s_get_code"
+            android:textColor="@drawable/bind_bt_textcolor"
+            android:textSize="13sp"
+            app:layout_constraintLeft_toRightOf="@id/et_mobile_code"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/et_mobile_code" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/line" />
+
+    <Button
+        android:id="@+id/confirm"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="334dp"
+        android:layout_height="40dp"
+        android:onClick="onClick"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/blue_white_frame_3"
+        android:text="@string/confirm_modify"
+        android:textColor="@color/blue"
+        android:textSize="16sp" />
+</LinearLayout>

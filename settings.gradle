@@ -1,0 +1,1 @@
+include ':app', ':basiclibrary', ':verticalrollingview', ':imagepicker', ':im',  ':uikit2', ':avchatkit', ':faceunity', ':indexlib'

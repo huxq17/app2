@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- common -->
+    <!--<string name="empty"></string>-->
+    <!--<string name="ok">OK</string>-->
+    <!--<string name="cancel"> cancel </string>-->
+    <!--<string name="clear_empty">Empty </string>-->
+    <!--    -->
+    <!--<string name="iknow"> know </string>-->
+    <!--    -->
+    <!--<string name="search">search</string>-->
+    <!--    -->
+    <!--<string name="remove">Remove</string>-->
+    <!--    -->
+    <!--<string name="add">Add</string>-->
+    <!--    -->
+    <!--<string name="create">New </string>-->
+    <!--    -->
+    <!--<string name="without_content">Nothing</string>-->
+    <!--    -->
+    <!--<string name="network_is_not_available"> network connection failed, please check your network settings </string>-->
+    <!--    -->
+    <!--<string name="open">Open </string>-->
+    <!--    -->
+    <!--<string name="close"> Close </string>-->
+    <!--    -->
+    <!--<string name="menu">menu</string>-->
+    <!--    -->
+    <!--<string name="now_allow_space"> can t contain spaces</string>-->
+    <!--    -->
+    <!--<string name="readed">read</string>-->
+
+    <!--&lt;!&ndash; session &ndash;&gt;-->
+    <!--<string name="input_panel_photo">Picture</string>-->
+    <!--    -->
+    <!--<string name="input_panel_video">video</string>-->
+    <!--    -->
+    <!--<string name="input_panel_location">Location</string>-->
+    <!--    -->
+    <!--<string name="input_panel_take"> shoot </string>-->
+    <!--    -->
+    <!--<string name="im_choose_pic">Please select JPG PNG BMP GIF format picture file</string>-->
+    <!--    -->
+    <!--<string name="repeat_download_message">Redownload?</string>-->
+    <!--    -->
+    <!--<string name="repeat_send_has_blank">Resend</string>-->
+    <!--    -->
+    <!--<string name="repeat_send_message">Resend message?</string>-->
+    <!--    -->
+    <!--<string name="copy_has_blank">Copy </string>-->
+    <!--    -->
+    <!--<string name="delete_has_blank"> delete </string>-->
+    <!--    -->
+    <!--<string name="voice_to_text"> turn text </string>-->
+    <!--    -->
+    <!--<string name="forward_to_person"> Forward to individual </string>-->
+    <!--    -->
+    <!--<string name="forward_to_team"> forward to group </string>-->
+    <!--    -->
+    <!--<string name="withdrawn_msg"> Withdraw </string>-->
+    <!--    -->
+    <!--<string name="save">Save</string>-->
+    <!--    -->
+    <!--<string name="main_msg_list_delete_chatting">Delete this chat</string>-->
+    <!--    -->
+    <!--<string name="main_msg_list_sticky_on_top"> pin the chat </string>-->
+    <!--    -->
+    <!--<string name="main_msg_list_clear_sticky_on_top"> cancel the top </string>-->
+    <!--    -->
+    <!--<string name="save_to_device"> save to phone </string>-->
+    <!--    -->
+    <!--<string name="picture_save_fail"> image saved failed </string>-->
+    <!--    -->
+    <!--<string name="picture_save_to"> picture has been saved to the phone </string>-->
+    <!--    -->
+    <!--<string name="search_join_team"> search to join the group </string>-->
+    <!--    -->
+    <!--<string name="file_transfer_state_downloaded"> downloaded </string>-->
+    <!--    -->
+    <!--<string name="file_transfer_state_undownload"> not downloaded </string>-->
+    <!--    -->
+    <!--<string name="trans_voice_failed"> speech conversion failed </string>-->
+    <!--    -->
+    <!--<string name="team_invalid_tip">You have left the group</string>-->
+    <!--    -->
+    <!--<string name="normal_team_invalid_tip">You have left this forum </string>-->
+    <!--    -->
+    <!--<string name="team_send_message_not_allow">You are no longer in this group and cannot send messages</string>-->
+    <!--    -->
+    <!--<string name="send">send </string>-->
+    <!--    -->
+    <!--<string name="unsupport_title">Cannot display the content</string>-->
+    <!--    -->
+    <!--<string name="unsupport_desc">The client version does not support this content</string>-->
+    <!--    -->
+    <!--<string name="revoke_failed"> message sent more than 2 minutes can not be withdrawn </string>-->
+    <!--    -->
+    <!--<string name="pic_and_video">Images and Videos</string>-->
+    <!--    -->
+    <!--<string name="black_list_send_tip"> message was sent, but the other party refused </string>-->
+
+    <!--&lt;!&ndash; 语音 &ndash;&gt;-->
+    <!--<string name="record_audio"> hold and speak </string>-->
+    <!--    -->
+    <!--<string name="record_audio_end"> loose end </string>-->
+    <!--    -->
+    <!--<string name="sdcard_not_exist_error">Please insert SD card</string>-->
+    <!--    -->
+    <!--<string name="recording_error"> recording failed, please try again </string>-->
+    <!--    -->
+    <!--<string name="recording_init_failed">Initial recording failed</string>-->
+    <!--    -->
+    <!--<string name="recording_cancel"> finger slip, cancel sending </string>-->
+    <!--    -->
+    <!--<string name="timer_default">00:00</string>-->
+    <!--    -->
+    <!--<string name="recording_cancel_tip"> release finger, cancel sending </string>-->
+    <!--    -->
+    <!--<string name="recording_max_time"> recording reaches the maximum time, is it sent? </string>-->
+
+    <!--&lt;!&ndash; 拍照视频 &ndash;&gt;-->
+    <!--<string name="gallery_invalid"> Your phone does not have a gallery program </string>-->
+    <!--    -->
+    <!--<string name="sdcard_not_enough_head_error">The SD card is pulled out or there is insufficient storage space to save the avatar </string>-->
+    <!--    -->
+    <!--<string name="sdcard_not_enough_error"> insufficient storage space to save this multimedia message </string>-->
+    <!--    -->
+    <!--<string name="download_video">Downloading video</string>-->
+    <!--    -->
+    <!--<string name="download_video_fail">Video download failed, please try again</string>-->
+    <!--    -->
+    <!--<string name="look_video_fail">Cannot play this video</string>-->
+    <!--    -->
+    <!--<string name="look_video_fail_try_again">Unable to play video temporarily, please try again</string>-->
+    <!--    -->
+    <!--<string name="video_play">Video playback</string>-->
+    <!--    -->
+    <!--<string name="video_record"> video recording </string>-->
+    <!--    -->
+    <!--<string name="video_record_symbol">REC</string>-->
+    <!--    -->
+    <!--<string name="video_record_begin"> start recording </string>-->
+    <!--    -->
+    <!--<string name="connect_vedio_device_fail">Unable to connect video device, please try again later</string>-->
+    <!--    -->
+    <!--<string name="capture_video_size_in_kb">Video file size is: %1$dKB,</string>-->
+    <!--    -->
+    <!--<string name="capture_video_size_in_mb"> video file size is: %1$.2fMB,</string>-->
+    <!--    -->
+    <!--<string name="is_send_video"> Send this video? </string>-->
+    <!--    -->
+    <!--<string name="start_camera_to_record_failed"> failed to start camera recording video </string>-->
+    <!--    -->
+    <!--<string name="stop_fail_maybe_stopped"> stop failed, may have been stopped </string>-->
+    <!--    -->
+    <!--<string name="video_exception"> abnormal video file </string>-->
+    <!--    -->
+    <!--<string name="im_choose_video_file_size_too_large">The video file is too large, the system limit is 20MB</string>-->
+    <!--    -->
+    <!--<string name="im_choose_video">Please select 3GP MP4 format video file</string>-->
+    <!--    -->
+    <!--<string name="video_record_short">recorded video is too short</string>-->
+    <!--    -->
+    <!--<string name="download_progress_description">%1$s(%2$s/%3$s)</string>-->
+
+    <!--&lt;!&ndash; 联系人选择器 &ndash;&gt;-->
+    <!--<string name="contact_selector"> contact selector </string>-->
+
+    <!--&lt;!&ndash; team &ndash;&gt;-->
+    <!--<string name="team_need_authentication"> need authentication </string>-->
+    <!--    -->
+    <!--<string name="team_allow_anyone_join">Allow anyone to join</string>-->
+    <!--    -->
+    <!--<string name="team_not_allow_anyone_join"> does not allow anyone to apply for </string>-->
+    <!--    -->
+    <!--<string name="team_admin_invite">Administrator Invitation</string>-->
+    <!--    -->
+    <!--<string name="team_everyone_invite"> Everyone invites </string>-->
+    <!--    -->
+    <!--<string name="team_admin_update">administrator modify</string>-->
+    <!--    -->
+    <!--<string name="team_everyone_update"> Everyone changes </string>-->
+    <!--    -->
+    <!--<string name="team_invitee_need_authen"> need to verify </string>-->
+    <!--    -->
+    <!--<string name="team_invitee_not_need_authen">No need to verify</string>-->
+    <!--    -->
+    <!--<string name="team_notify_mute"> does not remind any message </string>-->
+    <!--    -->
+    <!--<string name="team_notify_all"> reminds all messages </string>-->
+    <!--    -->
+    <!--<string name="team_notify_manager"> only remind administrator message </string>-->
+    <!--    -->
+    <!--<string name="team_nickname">group nickname</string>-->
+    <!--    -->
+    <!--<string name="team_nickname_none"> not filled in </string>-->
+    <!--    -->
+    <!--<string name="team_identity">identity</string>-->
+    <!--    -->
+    <!--<string name="remove_member"> out of this group </string>-->
+    <!--    -->
+    <!--<string name="team_member_info">member information</string>-->
+    <!--    -->
+    <!--<string name="team_admin">Administrator</string>-->
+    <!--    -->
+    <!--<string name="team_creator"> owner </string>-->
+    <!--    -->
+    <!--<string name="team_member"> group members </string>-->
+    <!--    -->
+    <!--<string name="update_success">save successfully</string>-->
+    <!--    -->
+    <!--<string name="update_failed"> Save failed, code:%d</string>-->
+    <!--    -->
+    <!--<string name="no_permission">No permission</string>-->
+    <!--    -->
+    <!--<string name="set_team_admin"> as administrator</string>-->
+    <!--    -->
+    <!--<string name="cancel_team_admin"> cancel the administrator </string>-->
+    <!--    -->
+    <!--<string name="team_member_remove_confirm">Are you sure you want to move it out of the group?</string>-->
+    <!--    -->
+    <!--<string name="team_annourcement"> group announcement </string>-->
+    <!--    -->
+    <!--<string name="invite_member">invite member</string>-->
+    <!--    -->
+    <!--<string name="team_name">group name</string>-->
+    <!--    -->
+    <!--<string name="team_introduce"> group introduction </string>-->
+    <!--    -->
+    <!--<string name="team_extension">Extension Example</string>-->
+    <!--    -->
+    <!--<string name="click_set"> click settings </string>-->
+    <!--    -->
+    <!--<string name="create_advanced_team">Create Advanced Group</string>-->
+    <!--    -->
+    <!--<string name="reach_team_member_capacity"> number of members can not exceed %1$d</string>-->
+    <!--    -->
+    <!--<string name="team_authentication">Authentication</string>-->
+    <!--    -->
+    <!--<string name="team_invite">Invite others permission</string>-->
+    <!--    -->
+    <!--<string name="team_info_update"> group data modification permission </string>-->
+    <!--    -->
+    <!--<string name="team_invitee_authentication">Inviter Authentication</string>-->
+    <!--    -->
+    <!--<string name="create_team">Create group</string>-->
+    <!--    -->
+    <!--<string name="over_team_member_capacity">Invitation failed with a member limit of %1$d people</string>-->
+    <!--    -->
+    <!--<string name="over_team_capacity"> failed to create, limit the number of groups created </string>-->
+    <!--    -->
+    <!--<string name="create_team_failed">Create failed</string>-->
+    <!--    -->
+    <!--<string name="create_team_success"> created successfully </string>-->
+    <!--    -->
+    <!--<string name="team_announce_title">Headline</string>-->
+    <!--    -->
+    <!--<string name="team_announce_content">announcement content</string>-->
+    <!--    -->
+    <!--<string name="team_announce_notice"> Please enter the group announcement title </string>-->
+    <!--    -->
+    <!--<string name="my_team_card">My group business card</string>-->
+    <!--    -->
+    <!--<string name="team_introduce_hint">Click to fill in the introduction </string>-->
+    <!--    -->
+    <!--<string name="team_extension_hint">Click to modify the extension </string>-->
+    <!--    -->
+    <!--<string name="team_announce_hint">Click to complete the group announcement </string>-->
+    <!--    -->
+    <!--<string name="team_notification_config"> message alert </string>-->
+    <!--    -->
+    <!--<string name="team_transfer_without_member">No transferable group member</string>-->
+    <!--    -->
+    <!--<string name="team_invite_members_success">Group member invitation has been issued</string>-->
+    <!--    -->
+    <!--<string name="team_invite_members_failed">Group member invitation failed</string>-->
+    <!--    -->
+    <!--<string name="team_transfer_success"> cluster transfer success </string>-->
+    <!--    -->
+    <!--<string name="team_transfer_failed"> group transfer failed </string>-->
+    <!--    -->
+    <!--<string name="quit_team_success">You have retired </string>-->
+    <!--    -->
+    <!--<string name="quit_team_failed">Unreport Failed</string>-->
+    <!--    -->
+    <!--<string name="quit_normal_team_success">You have left the discussion group</string>-->
+    <!--    -->
+    <!--<string name="quit_normal_team_failed"> Exiting the discussion group failed </string>-->
+    <!--    -->
+    <!--<string name="dismiss_team_success"> group has been dissolved </string>-->
+    <!--    -->
+    <!--<string name="dismiss_team_failed"> failed to dissolve the cluster </string>-->
+    <!--    -->
+    <!--<string name="dismiss_team"> dissolved the group </string>-->
+    <!--    -->
+    <!--<string name="transfer_team"> transfer group </string>-->
+    <!--    -->
+    <!--<string name="quit_team"> exit group </string>-->
+    <!--    -->
+    <!--<string name="quit_normal_team"> exit the discussion group</string>-->
+    <!--    -->
+    <!--<string name="team_apply_to_join"> request to join </string>-->
+    <!--    -->
+    <!--<string name="advanced_team">advanced cluster</string>-->
+    <!--    -->
+    <!--<string name="normal_team">discussion group</string>-->
+    <!--    -->
+    <!--<string name="team_name_toast"> group name can not be empty</string>-->
+    <!--    -->
+    <!--<string name="not_allow_empty"> can not be empty </string>-->
+    <!--    -->
+    <!--<string name="chat_setting">chat information</string>-->
+    <!--    -->
+    <!--<string name="team_settings_name">Set name</string>-->
+    <!--    -->
+    <!--<string name="normal_team_name">group name</string>-->
+    <!--    -->
+    <!--<string name="remove_member_success"> Remove Member Success </string>-->
+    <!--    -->
+    <!--<string name="remove_member_failed">Remove member failed</string>-->
+    <!--    -->
+    <!--<string name="invite_member_success">Invite members to succeed</string>-->
+    <!--    -->
+    <!--<string name="invite_member_failed">Invitation member failed</string>-->
+    <!--    -->
+    <!--<string name="team_create_notice">Please add group members</string>-->
+    <!--    -->
+    <!--<string name="team_settings_set_name"> take a name </string>-->
+    <!--    -->
+    <!--<string name="team_not_exist"> The group does not exist </string>-->
+    <!--    -->
+    <!--<string name="normal_team_not_exist">This discussion group does not exist</string>-->
+    <!--    -->
+    <!--<string name="mute_msg">Set Prohibition </string>-->
+    <!--    -->
+    <!--<string name="set_head_image">Set avatar</string>-->
+    <!--    -->
+    <!--<string name="team_update_cancel"> cancel update </string>-->
+    <!--    -->
+    <!--<string name="team_update_failed"> group avatar setting failed </string>-->
+    <!--    -->
+    <!--<string name="reach_capacity"> number of people has reached the limit </string>-->
+    <!--&lt;!&ndash; 消息搜索 &ndash;&gt;-->
+    <!--<string name="message_search_no_result"> no result </string>-->
+    <!--    -->
+    <!--<string name="message_search_title">View Chat Content</string>-->
+
+    <!--&lt;!&ndash; image picker &ndash;&gt;-->
+    <!--<string name="picker_image_preview">Preview</string>-->
+    <!--    -->
+    <!--<string name="picker_image_send">Send</string>-->
+    <!--    -->
+    <!--<string name="picker_image_folder">Album</string>-->
+    <!--    -->
+    <!--<string name="picker_image_album_loading"> album loading...</string>-->
+    <!--    -->
+    <!--<string name="picker_image_album_empty">There are no pictures in the album! </string>-->
+    <!--    -->
+    <!--<string name="picker_image_folder_info">%d total </string>-->
+    <!--    -->
+    <!--<string name="picker_image_exceed_max_image_select">Select up to %d pictures! </string>-->
+    <!--    -->
+    <!--<string name="picker_image_send_select">Finish (%d)</string>-->
+    <!--    -->
+    <!--<string name="picker_image_preview_original"> send original </string>-->
+    <!--    -->
+    <!--<string name="picker_image_preview_original_select">Send Original (%s)</string>-->
+    <!--    -->
+    <!--<string name="picker_image_error">Error getting image </string>-->
+    <!--    -->
+    <!--<string name="image_compressed_size">The original image size is: %1$s,</string>-->
+    <!--    -->
+    <!--<string name="unknow_size">unknown size</string>-->
+    <!--    -->
+    <!--<string name="is_send_image"> Send this original picture? </string>-->
+    <!--    The-->
+    <!--<string name="multi_image_compressed_size"> original image size is: %1$s,</string>-->
+    <!--    -->
+    <!--<string name="is_send_multi_image"> Send these original pictures? </string>-->
+    <!--    -->
+    <!--<string name="waitfor_image_local">Opening album, please wait\u2026</string>-->
+    <!--    -->
+    <!--<string name="recapture"> retake </string>-->
+    <!--    -->
+    <!--<string name="image_show_error"> picture shows abnormal </string>-->
+    <!--    -->
+    <!--<string name="memory_out"> insufficient memory </string>-->
+    <!--    -->
+    <!--<string name="choose_from_photo_album"> Select from phone album </string>-->
+    <!--    -->
+    <!--<string name="choose">select </string>-->
+    <!--    -->
+    <!--<string name="edit">Edit</string>-->
+    <!--    -->
+    <!--<string name="crop">Cutting </string>-->
+
+    <!--&lt;!&ndash; 消息类型 &ndash;&gt;-->
+    <!--<string name="msg_type_image">image</string>-->
+    <!--    -->
+    <!--<string name="msg_type_audio">Voice</string>-->
+
+    <!--&lt;!&ndash; 查看大图 &ndash;&gt;-->
+    <!--<string name="download_picture_fail">image download failed</string>-->
+    <!--    -->
+    <!--<string name="look_up_original_photo_format">View Original (%s)</string>-->
+
+    <!--&lt;!&ndash;全文检索&ndash;&gt;-->
+    <!--<string name="fts_enable"> Full Text Search (FTS4)</string>-->
+    <!--    -->
+    <!--<string name="fts_prefix_hit"> prefix matching highlight search results </string>-->
+    <!--    -->
+    <!--<string name="msg_search">Full Text Search</string>-->
+    <!--    -->
+    <!--<string name="msg_search_limit"> full text search display number </string>-->
+    <!--    -->
+    <!--<string name="friend_is_input"> the other party is typing...</string>-->
+    <!--    -->
+    <!--<string name="message_cannt_send">"This message could not be sent"</string>-->
+
+    <!--<string name="a_good_friend">"total %d friends"</string>-->
+</resources>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nim_status_bar_audio_message">received an audio message from %1$s</string>
+    <string name="nim_status_bar_custom_message">received a custom message from %1$s</string>
+    <string name="nim_status_bar_file_message">received a file from %1$s</string>
+    <string name="nim_status_bar_location_message">%1$s shared a location message</string>
+    <string name="nim_status_bar_multi_messages_incoming">received messages from %1$d contacts</string>
+    <string name="nim_status_bar_notification_message">%1$s: notification</string>
+    <string name="nim_status_bar_image_message">received a picture from %1$s</string>
+    <string name="nim_status_bar_ticker_text">received a message from %1$s</string>
+    <string name="nim_status_bar_unsupported_message">%1$s: unsupported message type</string>
+    <string name="nim_status_bar_video_message">received a video message from %1$s</string>
+    <string name="nim_status_bar_hidden_msg_content">you received a new message</string>
+
+    <string name="empty"></string>
+        <string name="main_tab_session">conversation</string>
+        <string name="main_tab_contact">Contacts </string>
+        <string name="user_profile">personal business card</string>
+        <string name="login">Login</string>
+        <string name="logining">Login</string>
+        <string name="register">Registration</string>
+        <string name="registering">Registration</string>
+        <string name="agree">Agree</string>
+        <string name="reject">reject</string>
+        <string name="network_is_not_available"> network connection failed, please check your network settings </string>
+        <string name="login_hint_account">Please enter account</string>
+        <string name="login_hint_password"> Please enter the password </string>
+        <string name="input_account">Please enter the account, limit 20 letters or numbers </string>
+        <string name="register_account_tip"> account limit 20 letters or numbers </string>
+        <string name="input_nickname"> Please enter nickname, limit 10 Chinese characters, letters or numbers </string>
+        <string name="register_nick_name_tip"> nickname limit 10 Chinese characters, letters or numbers </string>
+        <string name="input_password">Please enter the password, 6~20 letters or numbers</string>
+        <string name="register_password_tip">password must be 6~20 letters or numbers</string>
+        <string name="register_success"> registered successfully </string>
+        <string name="register_failed"> registration failed with error code %1$s:%2$s</string>
+        <string name="login_has_account"> Already have an account? Login directly </string>
+        <string name="done"> complete </string>
+        <string name="prepare_data"> Preparing data...</string>
+
+        <string name="readed">read</string>
+        <string name="about">About</string>
+        <string name="logout"> logout </string>
+        <string name="add">Add</string>
+        <string name="remove">Remove</string>
+        <string name="menu">menu</string>
+        <string name="verify_reminder"> verification reminder </string>
+        <string name="without_content">Nothing</string>
+        <string name="create">New </string>
+        <string name="delete_tip">Delete prompt</string>
+        <string name="delete_system_message"> delete the system message? </string>
+        <string name="delete_success"> delete successfully </string>
+        <string name="clear_all_success"> cleared successfully </string>
+        <string name="login_failed"> wrong password or password </string>
+        <string name="login_exception"> invalid input </string>
+        <string name="file_browser">File Browser</string>
+        <string name="upload_text">Upload</string>
+        <string name="download_text">Download</string>
+        <string name="now_allow_space"> can t contain spaces</string>
+        <string name="open">Open </string>
+        <string name="close">Close</string>
+        <string name="search_advanced_team">search advanced group</string>
+        <string name="net_broken"> current network is not available </string>
+        <string name="nim_status_unlogin"> is not logged in</string>
+        <string name="nim_status_connecting">Connecting...</string>
+        <string name="nim_status_logining"> login...</string>
+        <string name="user_not_exsit"> The user does not exist </string>
+        <string name="user_tips">Please check if the account you entered is correct</string>
+        <string name="edit">Edit</string>
+
+    <string name="input_panel_guess">Guess </string>
+    <string name="input_panel_audio_call">Voice call</string>
+    <string name="input_panel_video_call">Video Call</string>
+    <string name="input_panel_file">Send File</string>
+    <string name="input_panel_RTS"> white board </string>
+    <string name="input_panel_SPAN"> burn immediately after reading</string>
+    <string name="input_panel_tip">Tip</string>
+    <string name="message_history_query">cloud message record </string>
+    <string name="message_search_title">search for local message records</string>
+    <string name="message_clear"> clear the local message record </string>
+    <string name="message_info">chat information</string>
+
+    <string name="add_friend">Add as Friend </string>
+    <string name="remove_friend">delete friend </string>
+    <string name="begin_chat">chat </string>
+    <string name="remove_friend_tip"> After deleting the friend, the two friends will be released at the same time </string>
+    <string name="remove_friend_success">Delete Friend Success</string>
+    <string name="add_friend_self_tip">Cannot add itself as a friend</string>
+    <string name="add_friend_verify_tip">Friend Verification Request</string>
+    <string name="black_list_tip">You will not receive any messages from the contacts in the list</string>
+
+    <!-- group -->
+        <string name="add_buddy">Add Buddy</string>
+        <string name="create_normal_team">Create discussion group</string>
+        <string name="team_apply_sending">Sending...</string>
+        <string name="no_team">You have no groups</string>
+        <string name="no_normal_team">You havent discussed the group</string> yet
+        <string name="team_search_hint"> Please enter the group number to search for </string>
+        <string name="team_number_not_exist"> group number does not exist </string>
+        <string name="team_join">Join Group</string>
+        <string name="team_join_success">Successfully joined the group: %1$s</string>
+        <string name="team_apply_to_join_send_success"> application has been issued </string>
+        <string name="has_exist_in_team"> is already in the group </string>
+        <string name="team_num_limit"> number of groups has reached the limit </string>
+
+        <!-- Message Alert -->
+
+        <!-- Custom Notification -->
+        <string name="custom_notification">Custom Notifications</string>
+        <string name="select_custom_notification_target"> select send object </string>
+        <string name="send_custom_notification_tip">Please enter the content to be sent</string>
+        <string name="send_custom_notification_success">Custom notification sent successfully</string>
+        <string name="send_custom_notification_failed">Custom Notification Failed to Send</string>
+        <string name="send_custom_notification_to_buddy">Send to a friend</string>
+        <string name="send_custom_notification_to_team">Send to group</string>
+
+        <!-- Message Type -->
+        <string name="msg_type_image">image</string>
+        <string name="msg_type_audio">Voice</string>
+
+    <string name="location_navigate">Navigation</string>
+        <string name="location_loading"> positioning is in progress </string>
+        <string name="location_map"> map positioning </string>
+        <string name="my_location">My Location</string>
+        <string name="location_address_unkown"> this location information is not available </string>
+        <string name="format_mylocation">My location:%s</string>
+        <string name="location_address_fail">Failed to get location information </string>
+        <string name="tools_selected">select tool</string>
+        <string name="friends_map_navigation_web">Open in Web Page</string>
+        <string name="location_open_map_error">Error opening the map </string>
+
+        <!-- about -->
+        <string name="about_clear_msg_history"> clear all chat records </string>
+        <string name="clear_msg_history_success">The chat is cleared </string>
+
+        <!--RTS Whiteboard-->
+        <string name="start_session">Inviting each other, please wait</string>
+        <string name="callee_reject">The other party rejected this request</string>
+        <string name="callee_ack_timeout">The other party did not accept the request</string>
+        <string name="receive_session"> the other party to launch a whiteboard demonstration </string>
+        <string name="start_session_record"> I initiated a whiteboard demonstration </string>
+        <string name="session_end_record"> whiteboard presentation has ended </string>
+        <string name="end_session_tip_head"> Exit Whiteboard Demo </string>
+        <string name="end_session_tip_content"> After exiting, you will no longer receive whiteboard presentation message content</string>
+        <string name="target_has_end_session"> the other end of the whiteboard presentation </string>
+        <string name="accept_session">Accept </string>
+        <string name="reject_session"> reject </string>
+        <string name="doodle_back">Back </string>
+        <string name="doodle_clear"> clear screen </string>
+
+        <!-- setting -->
+        <string name="settings">settings</string>
+        <string name="no_disturb"> Do Not Disturb </string>
+        <string name="multiport_push">PC/Web Online Push</string>
+        <string name="msg_notice"> message alert </string>
+        <string name="setting_about">About</string>
+        <string name="setting_close"> closed </string>
+        <string name="no_disturb_tips"> cloud messages will no longer be reminded during the set time period </string>
+        <string name="time_from"> from </string>
+        <string name="time_to">to </string>
+        <string name="time_from_default">22:00</string>
+        <string name="time_to_default">08:00</string>
+        <string name="black_list"> blacklist </string>
+        <string name="msg_speaker">Handset mode</string>
+        <string name="ring">ring mode</string>
+        <string name="led"> custom breathing light </string>
+        <string name="notice_content"> notification bar header customization </string>
+        <string name="clear_index"> clean up the full-text search cache </string>
+        <string name="operation_too_frequent"> operation is too frequent </string>
+        <!-- Multi-Login -->
+        <string name="multiport_manager">multi-end login management</string>
+        <string name="multiport_logout"> offline </string>
+        <string name="computer_version"> cloud letter computer version </string>
+        <string name="web_version"> cloud letter web version </string>
+        <string name="mobile_version"> cloud mobile version </string>
+        <string name="multiport_logging"> is in use</string>
+        <string name="kickout_notify"> offline notification </string>
+        <string name="kickout_content"> Your account is kicked offline by %1$s, please make sure the account information is safe</string>
+
+        <!-- Multi-line online type -->
+        <string name="on_line">Online</string>
+        <string name="on_line_pc">PC online </string>
+        <string name="on_line_mac">Mac online </string>
+        <string name="on_line_web">web online </string>
+        <string name="client_aos">Android</string>
+        <string name="client_ios">iOS</string>
+        <string name="on_line_busy"> busy </string>
+        <string name="off_line">Offline</string>
+
+    <string name="snapchat_longclick_to_view"> hold down view </string>
+
+    <!-- Personal Business Card -->
+        <string name="birthday"> birthdays </string>
+        <string name="phone"> phone </string>
+        <string name="email">mailbox</string>
+        <string name="signature"> signing </string>
+        <string name="head">Header</string>
+        <string name="user_information">Personal Information</string>
+        <string name="nickname">nickname</string>
+        <string name="alias">memo name</string>
+        <string name="gender"> sex </string>
+        <string name="male">male</string>
+        <string name="female">female</string>
+        <string name="other">Other </string>
+        <string name="phone_number">mobile phone number</string>
+        <string name="set_head_image">Set avatar</string>
+        <string name="user_info_update_success"> set successfully </string>
+        <string name="user_info_update_cancel"> cancel update </string>
+        <string name="user_info_update_failed"> failed to set, please try again</string>
+        <string name="head_update_success"> avatar setting is successful </string>
+        <string name="head_update_failed"> avatar setting failed, please try again</string>
+        <string name="nickname_empty">nickname cannot be empty</string>
+
+        <!-- JsBridge -->
+        <string name="js_bridge">NIM JS Bridge</string>
+        <string name="js_bridge_demonstration">Js Bridge Demo</string>
+            <!--Robot-->
+         <string name="nim_robot_title">Cloud Xiao Xin Robot</string>
+         <string name="robot_start_chat">Start conversation </string>
+</resources>

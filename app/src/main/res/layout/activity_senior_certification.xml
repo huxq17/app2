@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="never">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/nav_layout"
+                layout="@layout/layout_title" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/upload_positive_photo"
+                android:textColor="@color/title_bg"
+                android:textSize="13sp" />
+
+            <ImageView
+                android:id="@+id/full_face_photo"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_margin="20dp"
+                android:onClick="onClick"
+                android:background="@drawable/gray_white_frame"
+                android:gravity="center"
+                android:scaleType="center"
+                android:src="@drawable/upload"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/upload_opposite_photo"
+                android:textColor="@color/title_bg"
+                android:textSize="13sp" />
+
+            <ImageView
+                android:id="@+id/reverse_photo"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_margin="20dp"
+                android:onClick="onClick"
+                android:background="@drawable/gray_white_frame"
+                android:gravity="center"
+                android:scaleType="center"
+                android:src="@drawable/upload"></ImageView>
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/demand"
+                android:textColor="@color/title_bg"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/submit"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="334dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="54dp"
+            android:layout_marginTop="55dp"
+            android:background="@drawable/blue_white_frame_3"
+            android:onClick="onClick"
+            android:text="@string/confirm_submit"
+            android:textColor="@color/blue"
+            android:textSize="16sp" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

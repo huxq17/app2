@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#2295CB</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="contentTextColor">#7F7F7F</color>
+    <color name="contentHintColor">#cccccc</color>
+    <color name="bgSpace">#f2f2f2</color>
+    <color name="notice_divider">#e6e6e6</color>
+    <color name="settingsDivider">#ffffff</color>
+    <!--<color name="bgSpace">#D3D3D3</color>-->
+    <color name="bg_content">#FAFAFA</color>
+    <color name="bind_checked_color">#3398e6</color>
+    <color name="bind_unchecked_color">#8F8F8F</color>
+    <color name="gray_bg">#F5F5F5</color>
+    <color name="line">#F2F2F2</color>
+    <color name="black_text_color">#4D4D4D</color>
+    <color name="gray_text_color">#808080</color>
+    <color name="white">#ffffff</color>
+    <color name="ed_text_color">#bebcce</color>
+    <color name="title_bg">#357cae</color>
+    <color name="blue">#3398e6</color>
+    <color name="gray_frame_line">#CCCCCC</color>
+
+    <color name="base_bg">#357cae</color>
+    <color name="black">#1e2323</color>
+    <color name="orange">#ff8106</color>
+    <color name="partTranslucent">#39000000</color>
+    <color name="black_color">#333333</color>
+    <color name="search_color">#d9d9d9</color>
+    <color name="node_bg">#2573aa</color>
+    <color name="grey_bg">#999999</color>
+    <color name="b3">#b3b3b3</color>
+</resources>

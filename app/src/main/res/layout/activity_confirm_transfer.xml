@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="never">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/nav_layout"
+            layout="@layout/layout_title" />
+
+        <TextView
+            android:id="@+id/itransfer_accounts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="18dp"
+            android:text="@string/itransfer_accounts"
+            android:textColor="@color/title_bg"
+            android:textSize="14sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/nav_layout" />
+
+        <TextView
+            android:id="@+id/itransfer_accounts_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="13dp"
+            android:textColor="@color/black_text_color"
+            android:textSize="14sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/itransfer_accounts" />
+
+        <TextView
+            android:id="@+id/currency_transfer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:text="@string/currency_transfer"
+            android:textColor="@color/title_bg"
+            android:textSize="14sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/itransfer_accounts_tv" />
+
+        <TextView
+            android:id="@+id/currency_transfer_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="13dp"
+            android:textColor="@color/black_text_color"
+            android:textSize="14sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/currency_transfer" />
+
+        <View
+            android:id="@+id/divider_currency_transfer"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="13dp"
+            android:background="@color/bgSpace"
+            app:layout_constraintTop_toBottomOf="@id/currency_transfer_tv" />
+
+
+        <TextView
+            android:id="@+id/number_transfers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="18dp"
+            android:text="@string/number_transfers"
+            android:textColor="@color/title_bg"
+            android:textSize="14sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/divider_currency_transfer" />
+
+        <TextView
+            android:id="@+id/number_transfers_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="13dp"
+            android:textColor="@color/black_text_color"
+            android:textSize="14sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/number_transfers" />
+
+        <View
+            android:id="@+id/divider_number_transfers"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/bgSpace"
+            app:layout_constraintTop_toBottomOf="@id/number_transfers_tv" />
+
+        <TextView
+            android:id="@+id/remarks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/remarks"
+            android:textColor="@color/title_bg"
+            android:textSize="14sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/divider_number_transfers" />
+
+        <TextView
+            android:id="@+id/remarks_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="13dp"
+            android:textColor="@color/black_text_color"
+            android:textSize="14sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/remarks" />
+
+        <TextView
+            android:id="@+id/service_charge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:text="@string/service_charge_colon"
+            android:textColor="@color/title_bg"
+            android:textSize="14sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/remarks_tv" />
+
+        <TextView
+            android:id="@+id/service_charge_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="14dp"
+            android:textColor="@color/black_text_color"
+            android:textSize="14sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/service_charge" />
+
+        <View
+            android:id="@+id/divider_service_charge"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/bgSpace"
+            app:layout_constraintTop_toBottomOf="@id/service_charge_tv" />
+
+        <ImageView
+            android:id="@+id/phone_img"
+            android:layout_width="7dp"
+            android:layout_height="12dp"
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/phone"
+            app:layout_constraintBottom_toBottomOf="@+id/phone"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/divider_service_charge" />
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintLeft_toRightOf="@+id/phone_img"
+            app:layout_constraintTop_toBottomOf="@id/divider_service_charge" />
+
+        <View
+            android:id="@+id/divider_phone"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="21dp"
+            android:background="@color/bgSpace"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/phone" />
+
+        <Button
+            android:id="@+id/confirm"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="82dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textAllCaps="false"
+            android:layout_marginTop="55dp"
+            android:background="@drawable/blue_white_frame_3"
+            android:onClick="onClick"
+            android:text="@string/confirm"
+            android:textColor="@color/title_bg"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/divider_phone" />
+    </android.support.constraint.ConstraintLayout>
+</android.support.v4.widget.NestedScrollView>

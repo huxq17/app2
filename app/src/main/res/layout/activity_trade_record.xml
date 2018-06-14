@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_content">
+
+    <include
+        android:id="@+id/nav_layout"
+        layout="@layout/layout_title"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.aiqing.wallet.widget.tablayout.TabLayout
+        android:id="@+id/record_tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/settings_item_height"
+        android:background="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@id/record_viewpager"
+        app:layout_constraintTop_toBottomOf="@id/nav_layout"
+        app:tabIndicatorColor="#0E99DA"
+        app:tabIndicatorHeight="2dp"
+        app:tabPaddingBottom="0dp"
+        app:tabPaddingEnd="0dp"
+        app:tabPaddingStart="0dp"
+        app:tabPaddingTop="0dp"
+        app:tabSelectedTextColor="#2295CB"
+        app:tabTextAppearance="@style/ContentTextStyle"
+        app:tabTextColor="#7F7F7F" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/record_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:overScrollMode="never"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/record_tab_layout" />
+
+</android.support.constraint.ConstraintLayout>

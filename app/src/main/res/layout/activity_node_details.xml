@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home.node.NodeDetailsActivity">
+
+    <include
+        android:id="@+id/nav_layout"
+        layout="@layout/layout_title"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_vertical"
+        android:textSize="13sp"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/vdo"
+        app:layout_constraintTop_toBottomOf="@+id/nav_layout" />
+
+    <TextView
+        android:id="@+id/vdo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@+id/type"
+        app:layout_constraintLeft_toRightOf="@+id/type"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/type" />
+
+    <View
+        android:id="@+id/divider_vdo"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/line"
+        app:layout_constraintTop_toBottomOf="@+id/type" />
+
+</android.support.constraint.ConstraintLayout>

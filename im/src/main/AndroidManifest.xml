@@ -1,0 +1,23 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aiqing.im">
+
+    <application>
+        <activity android:name=".session.activity.MessageHistoryActivity" />
+        <activity android:name=".session.activity.MessageInfoActivity" />
+        <activity android:name=".contact.activity.BlackListActivity" />
+        <activity android:name=".contact.activity.UserProfileActivity" />
+        <activity android:name=".contact.activity.UserProfileEditItemActivity" />
+        <activity android:name=".contact.activity.UserProfileSettingActivity" />
+        <activity android:name=".main.activity.SystemMessageActivity" />
+        <activity android:name=".session.search.DisplayMessageActivity" />
+        <activity android:name=".session.search.SearchMessageActivity" />
+        <activity android:name=".file.browser.FileBrowserActivity" />
+        <activity android:name=".session.activity.FileDownloadActivity" />
+        <activity android:name=".location.activity.LocationAmapActivity" />
+        <activity android:name=".location.activity.NavigationAmapActivity" />
+        <activity android:name=".main.activity.GlobalSearchActivity" />
+        <activity android:name=".main.activity.GlobalSearchDetailActivity" />
+        <activity android:name=".main.activity.GlobalSearchDetailActivity2" />
+        <activity android:name=".session.activity.WatchSnapChatPictureActivity" />
+    </application>
+</manifest>

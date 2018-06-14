@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.aiqing.wallet.widget.coordinatescroll.CoordinatorView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.aiqing.wallet.widget.coordinatescroll.CollapsingTitleView
+        android:id="@+id/home_app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="190dp">
+        <LinearLayout
+            android:id="@+id/home_head"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_home_head"
+            android:orientation="vertical">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/tv_home_title_scan"
+                    style="@style/home_top_three_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/iv_home_title_scan"
+                    android:text="@string/s_home_title_scan"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toLeftOf="@id/tv_home_title_receivables" />
+
+                <TextView
+                    android:id="@+id/tv_home_title_receivables"
+                    style="@style/home_top_three_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/iv_home_title_receivables"
+                    android:text="@string/s_home_title_receivables"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toRightOf="@id/tv_home_title_scan"
+                    app:layout_constraintRight_toLeftOf="@id/tv_home_title_detail" />
+
+                <TextView
+                    android:id="@+id/tv_home_title_detail"
+                    style="@style/home_top_three_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/iv_home_title_detail"
+                    android:text="@string/s_home_title_detail"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toRightOf="@id/tv_home_title_receivables"
+                    app:layout_constraintRight_toRightOf="parent" />
+            </android.support.constraint.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/tv_home_rate"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_gravity="bottom"
+                android:background="#55ffffff"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#1dbabf"
+            android:gravity="bottom"
+            android:paddingBottom="10dp"
+            app:contentInsetStart="0dp"
+            app:layout_collapseMode="pin">
+
+            <ImageView
+                android:id="@+id/iv_home_title_scan2"
+                style="@style/home_top_three_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/iv_home_title_scan" />
+
+            <ImageView
+                android:id="@+id/iv_home_title_receivables2"
+                style="@style/home_top_three_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/iv_home_title_receivables" />
+
+            <ImageView
+                android:id="@+id/iv_home_title_detail2"
+                style="@style/home_top_three_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/iv_home_title_detail" />
+        </android.support.v7.widget.Toolbar>
+
+    </com.aiqing.wallet.widget.coordinatescroll.CollapsingTitleView>
+
+    <com.aiqing.wallet.widget.HomeScrollView
+        android:id="@+id/nest_scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.DiscreteScrollView
+                android:id="@+id/item_picker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp" />
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center">
+
+                <com.xiaosu.view.text.VerticalRollingTextView
+                    android:id="@+id/verticalRollingView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="15dp"
+                    android:duration="2000"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textColor="#848799"
+                    android:textSize="14sp"
+                    app:animInterval="2000"
+                    app:icon="@drawable/icon_notice"
+                    app:icon_padding="10dp"
+                    app:maxTextSize="14sp"
+                    app:minTextSize="6sp" />
+
+            </LinearLayout>
+
+            <com.aiqing.wallet.widget.FunctionView
+                android:id="@+id/grid_fuction"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:numColumns="3"
+                android:scrollbars="none"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="0dp" />
+        </LinearLayout>
+    </com.aiqing.wallet.widget.HomeScrollView>
+</com.aiqing.wallet.widget.coordinatescroll.CoordinatorView>

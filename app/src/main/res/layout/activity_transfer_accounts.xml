@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/nav_layout"
+        layout="@layout/layout_title" />
+
+    <EditText
+        android:id="@+id/account_number"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="19dp"
+        android:background="@null"
+        android:hint="@string/input_transfer_accounts"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/friend_list"
+        app:layout_constraintTop_toBottomOf="@id/nav_layout" />
+
+    <ImageView
+        android:id="@+id/friend_list"
+        android:layout_width="18dp"
+        android:layout_height="21dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:onClick="onClick"
+        android:src="@drawable/contact"
+        app:layout_constraintBottom_toBottomOf="@id/account_number"
+        app:layout_constraintLeft_toRightOf="@id/account_number"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <View
+        android:id="@+id/divider_account_number"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/bgSpace"
+        app:layout_constraintTop_toBottomOf="@id/account_number" />
+
+    <TextView
+        android:id="@+id/currency"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@null"
+        android:hint="@string/choose_currency"
+        android:onClick="onClick"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/iv_select_currency"
+        app:layout_constraintTop_toBottomOf="@id/divider_account_number" />
+
+    <ImageView
+        android:id="@+id/iv_select_currency"
+        android:layout_width="14dp"
+        android:layout_height="7dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/bottom"
+        app:layout_constraintBottom_toBottomOf="@+id/currency"
+        app:layout_constraintLeft_toRightOf="@id/currency"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/currency" />
+
+    <View
+        android:id="@+id/divider_select_currency"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/bgSpace"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/iv_select_currency"
+        app:layout_constraintTop_toBottomOf="@id/currency" />
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@null"
+        android:hint="@string/input_number"
+        android:inputType="number"
+        android:textSize="14sp"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/balance"
+        app:layout_constraintTop_toBottomOf="@id/divider_select_currency" />
+
+    <TextView
+        android:id="@+id/balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:text="@string/balance"
+        android:textColor="@color/blue"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/number"
+        app:layout_constraintLeft_toRightOf="@+id/number"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/number" />
+
+    <View
+        android:id="@+id/divider_number"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/bgSpace"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/iv_select_currency"
+        app:layout_constraintTop_toBottomOf="@id/number" />
+
+    <EditText
+        android:id="@+id/remarks"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@null"
+        android:hint="@string/input_remarks"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/iv_select_currency"
+        app:layout_constraintTop_toBottomOf="@id/divider_number" />
+
+    <View
+        android:id="@+id/divider_remarks"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/bgSpace"
+        app:layout_constraintTop_toBottomOf="@id/remarks" />
+
+    <TextView
+        android:id="@+id/service_charge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/service_charge_colon"
+        android:textColor="@color/title_bg"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/divider_remarks" />
+
+    <View
+        android:id="@+id/divider_service_charge"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/bgSpace"
+        app:layout_constraintTop_toBottomOf="@id/service_charge" />
+
+    <LinearLayout
+        android:id="@+id/mobile_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="18dp"
+        android:orientation="horizontal"
+        android:visibility="invisible"
+        app:layout_constraintTop_toBottomOf="@id/divider_service_charge">
+
+        <ImageView
+            android:layout_width="7dp"
+            android:layout_height="12dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/phone" />
+
+        <TextView
+            android:id="@+id/mobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black_text_color"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/next"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="134dp"
+        android:background="@drawable/blue_white_frame_3"
+        android:onClick="onClick"
+        android:text="@string/next"
+        android:textAllCaps="false"
+        android:textColor="@color/title_bg"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/service_charge" />
+</android.support.constraint.ConstraintLayout>

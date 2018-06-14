@@ -1,0 +1,108 @@
+apply plugin: 'com.android.application'
+
+//apply plugin: 'kotlin-android'
+//
+//apply plugin: 'kotlin-android-extensions'
+apply plugin: 'service_agency'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "com.aiqing.wallet"
+        minSdkVersion 15
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+//        externalNativeBuild {
+//            cmake {
+//                cppFlags ""
+//            }
+//
+//        }
+        signingConfigs {
+            myConfig {
+                storeFile file('src/aiyou.keystore')
+                storePassword "aiyou1234"
+                keyAlias "aiyou"
+                keyPassword "aiyou1234"
+            }
+        }
+        externalNativeBuild {
+            cmake {
+                // Use the following syntax when passing arguments to variables:
+                // arguments "-DVAR_NAME=ARGUMENT".
+                arguments "-DANDROID_ARM_NEON=TRUE",
+                        // If you're passing multiple arguments to a variable, pass them together:
+                        // arguments "-DVAR_NAME=ARG_1 ARG_2"
+                        // The following line passes 'rtti' and 'exceptions' to 'ANDROID_CPP_FEATURES'.
+                        "-DANDROID_CPP_FEATURES=rtti exceptions"
+            }
+        }
+        splits {
+            abi {
+                enable true
+                reset()
+
+                include "arm64-v8a", "armeabi-v7a", "x86", "x86_64"
+//                include 'x86', 'armeabi-v7a' //select ABIs to build APKs for
+                universalApk true //generate an additional APK that contains all the ABIs
+            }
+        }
+//        ndk {
+//            abiFilters "x86"
+//            abiFilters "armeabi-v7a"
+//        }
+        multiDexEnabled true
+        javaCompileOptions {
+            annotationProcessorOptions {
+                includeCompileClasspath true
+            }
+        }
+    }
+    buildTypes {
+        debug {
+            minifyEnabled false
+            buildConfigField "String", "BASE_URL", "\"" + BASE_URL + "\""
+            buildConfigField "String", "TEST_BASE_URL", "\"" + TEST_BASE_URL + "\""
+            buildConfigField "boolean", "IS_TEST", IS_TEST
+//            signingConfig signingConfigs.myConfig
+//            minifyEnabled false
+//            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.myConfig
+            buildConfigField "String", "BASE_URL", "\"" + BASE_URL + "\""
+            buildConfigField "String", "TEST_BASE_URL", "\"" + TEST_BASE_URL + "\""
+            buildConfigField "boolean", "IS_TEST", IS_TEST
+//            minifyEnabled false
+//            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    externalNativeBuild {
+        cmake {
+            path "CMakeLists.txt"
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    implementation 'com.android.support:design:27.1.1'
+    implementation 'com.android.support:support-v4:27.1.1'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+//    implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    implementation project(':basiclibrary')
+    implementation project(':verticalrollingview')
+    implementation project(':imagepicker')
+    implementation project(':im')
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation 'com.google.zxing:core:3.3.0'
+    implementation project(':indexlib')
+}

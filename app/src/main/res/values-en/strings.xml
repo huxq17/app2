@@ -1,0 +1,325 @@
+<resources>
+
+    <!--    -->
+    <!--<string name="app_name">Vdoo Cloud Wallet</string>-->
+    <!--    -->
+    <!--<string name="s_bottom_home">Home</string>-->
+    <!--    -->
+    <!--<string name="s_bottom_letter">Credentials</string>-->
+    <!--    -->
+    <!--<string name="s_bottom_wallet">Wallet</string>-->
+    <!--    -->
+    <!--<string name="s_bottom_my">My</string>-->
+    <!--    -->
+    <!--<string name="s_home_title_scan">sweep</string>-->
+    <!--    -->
+    <!--<string name="s_home_title_receivables">payment code</string>-->
+    <!--    -->
+    <!--<string name="s_home_title_detail">details</string>-->
+    <!--    -->
+    <!--<string name="s_home_transfer">transfer</string>-->
+    <!--    -->
+    <!--<string name="s_home_trade">asset transaction</string>-->
+    <!--    -->
+    <!--<string name="s_home_news">information</string>-->
+    <!--    -->
+    <!--<string name="s_home_exp">explorer</string>-->
+    <!--    -->
+    <!--<string name="s_home_active_friend">activate friends</string>-->
+    <!--    -->
+    <!--<string name="s_active_account">activate account</string>-->
+    <!--    -->
+    <!--<string name="s_active_success">activation is successful</string>-->
+    <!--    -->
+    <!--<string name="s_home_c2c">c2c</string>-->
+    <!--    -->
+    <!--<string name="s_home_benefit">node plan</string>-->
+    <!--    -->
+    <!--<string name="s_home_more">more</string>-->
+    <!--    -->
+    <!--<string name="username">admin</string>-->
+    <!--    -->
+    <!--<string name="id">id</string>-->
+    <!--    -->
+    <!--<string name="ID">ID</string>-->
+    <!--    -->
+    <!--<string name="password">invitation code 548987</string>-->
+    <!--    -->
+    <!--<string name="exit_account">exit account</string>-->
+    <!--    -->
+    <!--<string name="nickname">nickname</string>-->
+    <!--    -->
+    <!--<string name="modify_phone">modify the phone number</string>-->
+    <!--    -->
+    <!--<string name="modify_login_pw">modify the login password</string>-->
+    <!--    -->
+    <!--<string name="modify_transaction_pw">modify the transaction password</string>-->
+    <!--    -->
+    <!--<string name="set_transaction_pw">set transaction password</string>-->
+    <!--    -->
+    <!--<string name="retrieve_transaction_pw">retrieve transaction password</string>-->
+    <!--    -->
+    <!--<string name="s_forget_pass"><u>forgot your password?</u></string>-->
+    <!--    -->
+    <!--<string name="s_go_register">register now</string>-->
+    <!--    -->
+    <!--<string name="s_login_account_input">please enter account</string>-->
+    <!--    -->
+    <!--<string name="s_login_password_input">please enter password</string>-->
+    <!--    -->
+    <!--<string name="s_login_button">login</string>-->
+    <!--    -->
+    <!--<string name="s_login_title">Login</string>-->
+    <!--    -->
+    <!--<string name="s_forget_pass_title">forgot password</string>-->
+    <!--    -->
+    <!--<string name="s_find_input_phone">please enter the phone number</string>-->
+    <!--    -->
+    <!--<string name="s_find_input_pass">please enter a new password</string>-->
+    <!--    -->
+    <!--<string name="s_get_code">get verification code</string>-->
+    <!--    -->
+    <!--<string name="s_find_pass_back">retrieve password</string>-->
+    <!--    -->
+    <!--<string name="s_input_code">please enter the verification code</string>-->
+    <!--    -->
+    <!--<string name="s_chinese">chinese</string>-->
+    <!--    -->
+    <!--<string name="s_english">english</string>-->
+
+    <!--    -->
+    <!--<string name="s_forget_register_title">Register</string>-->
+    <!--    -->
+    <!--<string name="s_register_input_phone">mobile phone number</string>-->
+    <!--    -->
+    <!--<string name="s_register_input_account">account / 6 digits or more combinations of letters</string>-->
+    <!--    -->
+    <!--<string name="s_register_input_code">verification code</string>-->
+    <!--    -->
+    <!--<string name="s_register_input_pass">login password /8 ~ 16 digits or a combination of letters</string>-->
+    <!--    -->
+    <!--<string name="s_register_input_ensure_pass">confirm login password</string>-->
+    <!--    -->
+    <!--<string name="s_register_invite_code">invitation code (optional)</string>-->
+    <!--    -->
+    <!--<string name="s_protocol_text"><font color='#cccccc'>click the sign up button to signify your consent</font><font color='#3398e6'><u>privacy policy and service agreement</u></font></string>-->
+    <!--    -->
+    <!--<string name="s_tishi">tip</string>-->
+    <!--    -->
+    <!--<string name="s_active_content">your account is not activated</string>-->
+    <!--    -->
+    <!--<string name="s_active_button">find friend activation account</string>-->
+    <!--    -->
+    <!--<string name="s_active_button_cancel">no, temporarily not activated</string>-->
+
+    <!--    -->
+    <!--<string name="authentication">real name authentication</string>-->
+    <!--    -->
+    <!--<string name="primary_authentication">initial real name certification</string>-->
+    <!--    -->
+    <!--<string name="senior_authentication">advanced real name authentication</string>-->
+    <!--    -->
+    <!--<string name="uncertified">uncertified</string>-->
+    <!--    -->
+    <!--<string name="certified">certified</string>-->
+    <!--    -->
+    <!--<string name="audit">auditing</string>-->
+
+    <!--    -->
+    <!--<string name="input_name">please enter the real name</string>-->
+    <!--    -->
+    <!--<string name="input_idnum">please enter the ID number</string>-->
+    <!--    -->
+    <!--<string name="confirm_submit">confirm commit</string>-->
+    <!--    -->
+    <!--<string name="upload_positive_photo">upload handheld ID front photo</string>-->
+    <!--    -->
+    <!--<string name="upload_opposite_photo">upload handheld ID card reverse</string>-->
+    <!--    -->
+    <!--<string name="shot_demand">shooting requirements:</string>-->
+    <!--    -->
+    <!--<string name="demand">1, I need to hold my ID card placed on the front of the chest; \n 2, I need to be crown-free, the facial features are clearly visible, and completely exposed hands and arms; \n3, ID card photos in the handheld document The information must be completely clear. </string>-->
+    <!--    -->
+    <!--<string name="friend_invitation">friend invitation</string>-->
+    <!--<string name="friend_invitation_title">Friend Invitation</string>-->
+
+    <!--<string name="invitation_code">invitation code</string>-->
+    <!--    -->
+    <!--<string name="wechat">wechat</string>-->
+    <!--    -->
+    <!--<string name="circle_friends">friend circle</string>-->
+    <!--    -->
+    <!--<string name="qq">qq</string>-->
+    <!--    -->
+    <!--<string name="invitation_lg">together to become a vdoo wallet user, together with a reward reward \n</string>-->
+    <!--    -->
+    <!--<string name="copy">click to copy text</string>-->
+    <!--    -->
+    <!--<string name="invitation_list">invitation list>></string>-->
+    <!--    -->
+    <!--<string name="s_invitation_list">my invitation list</string>-->
+    <!--<string name="invitation_list_title">My Invitation List</string>-->
+    <!--    -->
+    <!--<string name="inviter">my inviter:</string>-->
+    <!--    -->
+    <!--<string name="amount_money">holders</string>-->
+    <!--    -->
+    <!--<string name="active">liveness</string>-->
+    <!--    -->
+    <!--<string name="input_original_pw">please enter the original password</string>-->
+    <!--    -->
+    <!--<string name="input_new_pw">please enter a new password</string>-->
+    <!--    -->
+    <!--<string name="confirm_new_pw">confirm new password</string>-->
+    <!--    -->
+    <!--<string name="confirm_modify">confirm changes</string>-->
+    <!--    -->
+    <!--<string name="input_original_phone">please enter the original phone number</string>-->
+    <!--    -->
+    <!--<string name="input_sms_code">please enter SMS verification code</string>-->
+    <!--    -->
+    <!--<string name="input_new_phone">please enter a new phone number</string>-->
+    <!--    -->
+    <!--<string name="security_center">security center</string>-->
+    <!--    -->
+    <!--<string name="clean_cach">clear the cache</string>-->
+    <!--    -->
+    <!--<string name="clean_success">clean up successfully</string>-->
+
+
+    <!--    -->
+    <!--<string name="version_upgrades">version upgrade</string>-->
+    <!--    -->
+    <!--<string name="about_us">about us</string>-->
+    <!--    -->
+    <!--<string name="personal_data">Profiles</string>-->
+    <!--    -->
+    <!--<string name="total_assets">total assets ≈ </string>-->
+    <!--    -->
+    <!--<string name="approximately">≈</string>-->
+    <!--    -->
+    <!--<string name="usd">USD</string>-->
+    <!--    -->
+    <!--<string name="transfer_accounts">transfer</string>-->
+    <!--<string name="transfer_accounts_title">Transfer</string>-->
+    <!--<string name="input_transfer_accounts">please enter the transfer account</string>-->
+
+
+    <!--<string name="choose_currency">select transfer currency</string>-->
+    <!--<string name="input_number">please enter the transfer amount</string>-->
+    <!--<string name="input_remarks">input notes (optional)</string>-->
+    <!--<string name="service_charge">handling fee</string>-->
+    <!--<string name="next">next</string>-->
+    <!--<string name="itransfer_accounts">transfer account:</string>-->
+    <!--<string name="currency_transfer">transfer currency:</string>-->
+    <!--<string name="vdo">vdo</string>-->
+    <!--<string name="number_transfers">transfer amount:</string>-->
+    <!--<string name="number">100.0000 vdo</string>-->
+    <!--<string name="remarks">notes</string>-->
+    <!--<string name="remarks_content">vdo transfer</string>-->
+    <!--<string name="service_charge_colon">fee:</string>-->
+    <!--<string name="phone">86/13******956</string>-->
+    <!--<string name="confirm">confirm</string>-->
+    <!--<string name="detail">details</string>-->
+    <!--<string name="s_fill_mobile">please fill in the phone number</string>-->
+    <!--<string name="s_mobile_code_send_success">verification code has been sent, please check SMS </string>-->
+    <!--<string name="s_operator_ing">submitting...</string>-->
+    <!--<string name="s_blank_info">please complete the information</string>-->
+    <!--<string name="s_login_ing">Logging in...</string>-->
+    <!--    -->
+    <!--<string name="s_request_ing">requesting...</string>-->
+    <!--    -->
+    <!--<string name="s_operator_ok">operation is successful</string>-->
+    <!--    -->
+    <!--<string name="transfer">transfer into</string>-->
+    <!--    -->
+    <!--<string name="transfer_phone">transfer phone:</string>-->
+    <!--    -->
+    <!--<string name="transfer_address">transfer address:</string>-->
+    <!--    -->
+    <!--<string name="remarkss">note:</string>-->
+    <!--    -->
+    <!--<string name="account_book">account</string>-->
+    <!--    -->
+    <!--<string name="all">all</string>-->
+    <!--    -->
+    <!--<string name="change_into">into</string>-->
+    <!--    -->
+    <!--<string name="turn_out">transfer out</string>-->
+    <!--    -->
+    <!--<string name="modify_success">modified successfully</string>-->
+    <!--    -->
+    <!--<string name="pw_atypism">new password inconsistent, please re-enter</string>-->
+    <!--    -->
+    <!--<string name="recharge">recharge</string>-->
+    <!--    -->
+    <!--<string name="withdraw_money">tickets</string>-->
+    <!--    -->
+    <!--<string name="recharge_address">recharge address</string>-->
+    <!--    -->
+    <!--<string name="copy_address">copy address</string>-->
+    <!--    -->
+    <!--<string name="input_transfer_address">please enter the transfer address</string>-->
+    <!--    -->
+    <!--<string name="s_free_session">free chat</string>-->
+    <!--    -->
+    <!--<string name="s_free_contact">address book</string>-->
+    <!--    -->
+    <!--<string name="input_transaction_pw">please enter transaction password</string>-->
+    <!--    -->
+    <!--<string name="determine">OK</string>-->
+
+    <!--    -->
+    <!--<string name="s_account_book">details</string>-->
+    <!--    -->
+    <!--<string name="s_sure">ok</string>-->
+    <!--    -->
+    <!--<string name="s_cancel">cancel</string>-->
+    <!--    -->
+    <!--<string name="s_select_month">select month</string>-->
+    <!--    -->
+    <!--<string name="s_details_all">all</string>-->
+    <!--    -->
+    <!--<string name="s_details_in">into</string>-->
+    <!--    -->
+    <!--<string name="s_details_out">transfer out</string>-->
+    <!--    -->
+    <!--<string name="s_home_rate">vdo current price: %s(USD)</string>-->
+    <!--    -->
+    <!--<string name="s_notice">notification</string>-->
+    <!--    -->
+    <!--<string name="s_notice_details">announcement details</string>-->
+    <!--    -->
+    <!--<string name="s_news_details">information details</string>-->
+    <!--    -->
+    <!--<string name="choose_friend">select friend</string>-->
+    <!--    -->
+    <!--<string name="s_permission_miss">lost permissions</string>-->
+    <!--    -->
+    <!--<string name="s_permission_open_settings">go to settings</string>-->
+    <!--    -->
+    <!--<string name="s_permission_miss_tips">not all authorizations, some functions may not work properly!</string>-->
+    <!--    -->
+    <!--<string name="s_permission_grant_title">whether to grant permissions</string>-->
+    <!--    -->
+    <!--<string name="s_permission_grant_msg">programs need permissions, otherwise some functions may not work!</string>-->
+    <!--    -->
+    <!--<string name="s_permission_grant_ok">yes</string>-->
+    <!--<string name="s_permission_grant_reject">no</string>-->
+    <!--<string name="s_undeveloped">not open yet</string>-->
+    <!--<string name="input_id">please enter the correct ID number</string>-->
+    <!--    -->
+    <!--<string name="search">search</string>-->
+    <!--    -->
+    <!--<string name="no_search_data">no search data</string>-->
+
+    <!--    -->
+    <!--<string name="transfer_success">transfer successful</string>-->
+    <!--    -->
+    <!--<string name="s_user_protocol">user agreement</string>-->
+    <!--    -->
+    <!--<string name="transfer_account">transfer transfer</string>-->
+    <!--    -->
+    <!--<string name="upload_success">successfully uploaded</string>-->
+
+</resources>

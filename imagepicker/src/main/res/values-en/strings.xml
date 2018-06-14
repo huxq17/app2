@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<string name="app_name">ImagePicker</string>-->
+    <!--<string name="s_select_picture">Select photo</string>-->
+    <!--<string name="s_photo">Photos </string>-->
+    <!--<string name="s_album">Album</string>-->
+    <!--<string name="s_open_album">Open album </string>-->
+    <!--<string name="s_miss_permission">Less %s permissions required for %s</string>-->
+    <!--<string name="s_storage_and_album"> storage and camera </string>-->
+    <!--<string name="s_storage">store</string>-->
+    <!--<string name="s_cancel"> cancel </string>-->
+</resources>

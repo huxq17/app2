@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ImagePicker</string>
+    <string name="s_select_picture">选择照片</string>
+    <string name="s_photo">拍照</string>
+    <string name="s_album">相册</string>
+    <string name="s_open_album">打开相册</string>
+    <string name="s_miss_permission">缺少%s所需的%s权限</string>
+    <string name="s_storage_and_album">存储和相机</string>
+    <string name="s_storage">存储</string>
+    <string name="s_cancel">取消</string>
+</resources>

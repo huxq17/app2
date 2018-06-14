@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:background="@drawable/my_bg"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/personalData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="46dp"
+                android:orientation="horizontal">
+
+                <com.netease.nim.uikit.common.ui.imageview.CircleImageView
+                    android:id="@+id/avatar"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/default_head_image"
+                    app:civ_border_color="@color/white"
+                    app:civ_border_width="2dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="21dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/nickName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:ellipsize="end"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/inviteCode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/line" />
+
+        <LinearLayout
+            android:id="@+id/friendInvitation"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/bg_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:src="@drawable/friend_invitation" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_weight="1"
+                android:text="@string/friend_invitation"
+                android:textColor="@color/black_text_color"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="7dp"
+                android:layout_height="13dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/right" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="53dp"
+            android:background="@color/line" />
+
+        <LinearLayout
+            android:id="@+id/securityCenter"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/bg_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:src="@drawable/security_center" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_weight="1"
+                android:text="@string/security_center"
+                android:textColor="@color/black_text_color"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="7dp"
+                android:layout_height="13dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/right" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="53dp"
+            android:background="@color/line" />
+
+        <LinearLayout
+            android:id="@+id/certification"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/bg_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:src="@drawable/authentication" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_weight="1"
+                android:text="@string/authentication"
+                android:textColor="@color/black_text_color"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="7dp"
+                android:layout_height="13dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/right" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="53dp"
+            android:background="@color/line" />
+
+
+        <LinearLayout
+            android:id="@+id/clean_cach"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/bg_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:src="@drawable/clean_cach" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_weight="1"
+                android:text="@string/clean_cach"
+                android:textColor="@color/black_text_color"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="7dp"
+                android:layout_height="13dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/right" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="53dp"
+            android:background="@color/line" />
+
+        <LinearLayout
+            android:id="@+id/update"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/bg_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:src="@drawable/version_upgrades" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_weight="1"
+                android:text="@string/version_upgrades"
+                android:textColor="@color/black_text_color"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="7dp"
+                android:layout_height="13dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/right" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="53dp"
+            android:background="@color/line" />
+
+
+        <LinearLayout
+            android:id="@+id/my_aboutus"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/bg_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:src="@drawable/about_us" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_weight="1"
+                android:text="@string/about_us"
+                android:textColor="@color/black_text_color"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="7dp"
+                android:layout_height="13dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/right" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/line" />
+
+        <TextView
+            android:id="@+id/signOut"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="@string/exit_account" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/line" />
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
